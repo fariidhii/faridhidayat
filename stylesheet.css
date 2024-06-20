@@ -1,0 +1,473 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family: EditorialOld-Italic;
+    src: url('PPEditorialOld-Italic.otf');
+}
+@font-face {
+    font-family: EditorialOld-Reguler;
+    src: url('PPEditorialOld-Regular.otf');
+}
+@font-face {
+    font-family: EditorialOld-UltraLightItalic;
+    src: url('PPEditorialOld-UltraLightItalic.otf');
+}
+@font-face {
+    font-family: EditorialOld-UltraLight;
+    src: url('PPEditorialOld-Ultralight.otf');
+}
+
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+.section1{
+    background-color: #E2FD6A;
+}
+
+.section2{
+    background-color: #D4D7C3;
+}
+
+/* Menu utama section utama */
+.gambar1{
+    position: absolute;
+    width: 280px;
+    height: 350px;
+    left: 500px;
+    top: 99px;
+}
+
+.garis-atas{
+    position: absolute;
+    width: 1205px;
+    left: 25px;
+    top: 60px;
+    border: black solid 1px;
+}
+
+.tulisan1{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 320px;
+    top: 340px;
+    font-family: EditorialOld-Reguler;
+    font-size: 110px;
+    text-align: center;
+}
+
+
+
+/*  Menu utama section Kedua*/
+.tulisan-kanan-atas{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    left: 1030px;
+    top: 625px;
+}
+
+.kotak-atas-kiri{
+    position: absolute;
+    left: 25px;
+    top: 620px;
+    border:black solid 1px;
+    background-color: #E2FD6A;
+    width: 30px;
+    height: 30px;
+}
+
+.garis-section-kedua{
+    position: absolute;
+    top: 660px;
+    width: 1205px;
+    height: 0px;
+    left: 25px;
+    border: black solid 1px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.font{
+    font-family: EditorialOld-Reguler;
+}
+
+.font-angka{
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+span{
+    position: absolute;
+    top: -15px;
+    left: 250px;
+    font-family: Helvetica, sans-serif;
+    font-size: 70px;
+}
+
+
+.home{
+    position: absolute;
+    font-family: EditorialOld-Reguler;
+    font-size: 55px;
+    left: 150px;
+    top: 700px;
+}
+
+.garis-home{
+    position: absolute;
+    top: 765px;
+    width: 1205px;
+    height: 0px;
+    left: 25px;
+    border: black solid 2px;
+}   
+
+
+.about{
+    position: absolute;
+    font-size: 55px;
+    left: 150px;
+    top: 800px;
+}
+
+.garis-about{
+    position: absolute;
+    top: 865px;
+    width: 1205px;
+    height: 0px;
+    left: 25px;
+    border: black solid 2px;
+}
+
+
+.contact{
+    position: absolute;
+    font-size: 55px;
+    left: 150px;
+    top: 900px;
+}
+
+.garis-contact{
+    position: absolute;
+    top: 970px;
+    width: 700px;
+    height: 0px;
+    left: 25px;
+    border: black solid 1px;
+}
+
+
+/*angka section 2*/
+.angka01{
+    position: absolute;
+    top: 690px;
+    left: 70px;
+}
+
+.angka02{
+    position: absolute;
+    top: 790px;
+    left: 70px;
+}
+
+.angka03{
+    position: absolute;
+    top: 890px;
+    left: 70px;
+}
+
+
+
+/* Page 2 */
+.kotak-atas-kiri2{
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    border:black solid 1px;
+    background-color:#E2FD6A;
+    width: 30px;
+    height: 30px;
+}
+
+.garis-atas2{
+    position: absolute;
+    width: 1205px;
+    left: 25px;
+    top: 62px;  
+    border: black solid 1px;
+}
+
+.tulisan-kanan-atas2{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    left: 1030px;
+    top: 27px; 
+}
+
+.angka01-2{
+    position: absolute;
+    top: 92px;
+    left: 70px;
+}
+
+.home2{
+    position: absolute;
+    font-family: EditorialOld-Reguler;
+    font-size: 55px;
+    left: 150px;
+    top: 102px;
+}
+
+.garis-home2{
+    position: absolute;
+    top: 167px;
+    width: 1205px;
+    height: 400px;
+    left: 25px;
+    border: black solid 2px;
+    background-color: black;
+    z-index: 1;
+} 
+
+.teks3{
+    position: absolute;
+    width: 280px;
+    left: 70px;
+    top: 240px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    color:#D4D7C3;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.teks4{
+    position: absolute;
+    left: 70px;
+    top: 380px;
+    color: #D4D7C3;
+    font-size: 100px;
+    line-height: 0.9;
+    z-index: 2;
+}
+
+.farid{
+    font-family: EditorialOld-UltraLight;
+}
+
+.hidayat{
+    font-family: EditorialOld-UltraLightItalic;
+}
+
+.umur{
+    position: absolute;
+    left: 600px;
+    top: 450px;
+    color: #D4D7C3;
+    font-size: 30px;
+    font-family: EditorialOld-UltraLight; 
+    z-index: 2;   
+}
+
+.gambar2{
+    position: absolute;
+    width: 280px;
+    height: 350px;
+    left: 900px;
+    top: 190px;
+    z-index: 2;
+}
+
+/* Page 3 */
+.garis-home3{
+    position: absolute;
+    top: 167px;
+    width: 1205px;
+    left: 25px;
+    border: black solid 2px;
+    z-index: 1;
+}
+
+.about2{
+    position: absolute;
+    font-family: EditorialOld-Reguler;
+    font-size: 55px;
+    left: 150px;
+    top: 202px;
+}
+
+.garis-about2{
+    position: absolute;
+    top: 267px;
+    width: 1205px;
+    height: 300px;
+    left: 25px;
+    border: black solid 2px;
+    background-color: black;
+    z-index: 1;
+}
+
+.angka02-2{
+    position: absolute;
+    top: 192px;
+    left: 70px;
+}
+
+.teks5{
+    position: absolute;
+    width: 250px;
+    left: 70px;
+    top: 300px;
+    color: #D4D7C3;
+    font-size: 15px;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.teks6{
+    position: absolute;
+    width: 310px;
+    left: 480px;
+    top: 300px;
+    color: #D4D7C3;
+    font-size: 15px;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+.teks7{
+    position: absolute;
+    width: 280px;
+    left: 910px;
+    top: 300px;
+    color: #D4D7C3;
+    font-size: 15px;
+    line-height: 1.5;
+    z-index: 2;
+}
+
+/* Page 4 */
+.kotak-atas-kiri3{
+    position: absolute;
+    left: 25px;
+    top: 22px;
+    border:black solid 1px;
+    background-color:#D4D7C3;
+    width: 30px;
+    height: 30px;
+}
+
+.contact2{
+    position: absolute;
+    font-size: 55px;
+    left: 150px;
+    top: 102px;
+}
+
+.garis-contact2{
+    position: absolute;
+    top: 167px;
+    width: 700px;
+    height: 0px;
+    left: 25px;
+    border: black solid 1px;
+}
+
+.angka03-2{
+    position: absolute;
+    top: 92px;
+    left: 70px;
+}
+
+.font-ukuran1{
+    position: absolute;
+    left: 320px ;
+    top: 235px;
+    font-size: 45px;
+    line-height: 100px;
+}
+
+.font-ukuran2{
+    position: absolute;
+    left: -2px ;
+    top: 100px;
+    font-size: 45px;
+    line-height: 100px;
+}
+
+.font-ukuran3{
+    position: absolute;
+    left: -2px;
+    top: 200px;
+    font-size: 45px;
+    line-height: 100px;
+}
+
+.logo-email{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 250px;
+    
+}
+
+.logo-ig{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 350px;
+}
+
+.logo-twitter{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 150px;
+    top: 450px;
+}
+
+
+.tulisan-kanan-bawah{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+    left: 720px;
+    top: 250px; 
+    border:black solid 3px;
+    border-radius: 10px;
+    line-height:80px;
+    text-align: center;
+}
+
+.tulisan-kanan-bawah:hover{
+    color:#E2FD6A;
+    border:#E2FD6A solid 3px;
+    background-color:black;
+}
+
